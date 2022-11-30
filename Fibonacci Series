@@ -1,0 +1,12 @@
+# Python program to display the Fibonacci sequence
+
+def fibonacci_series(n):
+   if n <= 1:
+       return n
+   else:
+       return(fibonacci_series(n-1) + fibonacci_series(n-2))
+
+n = 10
+print("Fibonacci sequence:")
+for i in range(n):
+  print(fibonacci_series(i))
