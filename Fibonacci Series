@@ -6,7 +6,7 @@ def fibonacci_series(n):
    else:
        return(fibonacci_series(n-1) + fibonacci_series(n-2))
 
-n = 10
+n = int(input("Enter the input value of Fibonacci Series\n"))
 print("Fibonacci sequence:")
 for i in range(n):
   print(fibonacci_series(i))
